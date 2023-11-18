@@ -1,0 +1,106 @@
+/* fontes*/
+@font-face {
+  font-family: "ubuntu";
+  src: url('font/Ubuntu-light.ttf') format('truetype'),
+  src: url('font/Ubuntu-Italic.ttf') format('truetype'),
+  src: url ('font/ubuntu-Medium.ttf') format('truetype')
+  src: url('font/Ubuntu-Regular.ttf') format('truetype'),
+  src: url('font/Ubuntu-lightItalic.ttf') format('truetype'),
+src: url ('font/ubuntu-MediumItalic.ttf') format('truetype');}
+  
+@font-face {
+  font-family: "Ubuntubold"
+src: url('font/Ubuntu-Bold.ttf') format('truetype'),
+src: url('font/Ubuntu-BoldItalic.ttf') format('truetype'),
+src: url('font/UbuntuMono-Bold.ttf') format('truetype'),
+src: url('font/UbuntuMono-BoldItalic.ttf') format('truetype');}
+@font-face {
+	font-family: "signika"
+src: url('font/SignikaNegative-Light.ttf') format('truetype'),
+src: url('font/SignikaNegative-Medium.ttf') format('truetype'),
+src: url('font/SignikaNegative-Regular.ttf') format('truetype'),
+src: url('font/SignikaNegative-Bold.ttf') format('truetype'),
+src: url('font/SignikaNegative-SemiBold.ttf') format('truetype');}
+/* formatacao padrao */
+* { margin: 0;
+padding: 0.}
+
+body { font-size: 1em;
+      font-family: "ubuntu","UbuntuBold","signika";
+      background: #e6e6e6 ;}
+
+
+
+/* layout */
+#area-logo {padding:15px;}
+#area-cabecalho	{background:red; 
+padding: 10px; 
+                 text-align:center;}
+#area-menu{text-align:center;
+background-color:red;	
+padding:10px;}	
+
+#area-postagens {text-align: center;
+                 background-color:white;}
+
+
+/* cor logo */
+ 
+.branco {color:white;}
+
+/*Estados dos botoes */
+ a {color: black;
+text-decoration: none;}
+ a:hover {color: black;
+                  text-decoration: underline;
+				   background: none;
+				   padding: 5
+				   1px;			  
+				text-decoration: underline;}
+a:link {color: pink;
+        padding: 8px 12px;}
+a:visited {color:violet;
+padding: 8px 12px;}
+
+#postagem-lateral {text-align; center-left;}
+
+#rodape {text-align:center;
+         background: red;}
+div a:hover {
+    color: none;
+    background: none;
+    position: relative;
+    background-color: none;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+  }
+
+p {color:black;
+font-family:"ubuntu";}
+
+
+
+
+/**** css ***/
+.conteudo-lateral {text-align:center;
+					background: white;}
+					
+.branco {color:white;}
+
+.conteudo-lateral { background: red;
+					padding: 10px;
+margin-bottom: 20px;}
+.postagem-lateral { font-size: 0.8em;
+                    padding: 10px;
+					margin-bottom: 1px dotted #ccc; }
+.lateral { padding: 10px;}
+.postagem { font-size: 1.0em;
+                    padding: 10px;
+					margin-bottom: 1px dotted #ccc; 
+					text-align: center;}
+/***** formataçao h1 ***/
+
+h1{color:red;
+font-family: "signika";}
+h2,h3,h4,h5 {color:black;
+font-family: "ubuntu";}

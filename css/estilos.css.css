@@ -27,13 +27,14 @@ padding: 0.}
 
 body { font-size: 1em;
       font-family: "ubuntu","UbuntuBold","signika";
-      background: #e6e6e6 ;}
+      background-image: url(https://ortodontista.net/wp-content/uploads/2018/05/background-branco-3.jpg) ;
+      background-repeat: repeat;}
 
 
 
 /* layout */
 #area-logo {padding:15px;}
-#area-cabecalho	{background:red; 
+#area-cabecalho	{background: transparent; 
 padding: 10px; 
                  text-align:center;}
 #area-menu{text-align:center;
@@ -41,8 +42,17 @@ background-color:red;
 padding:10px;}	
 
 #area-postagens {text-align: center;
-                 background-color:white;}
+                 background-image: image(img/back.png) ;}
+#jogos_postagens {text-align: center-left;
+background-color: white;}
+#postagem-lateral {text-align; center-left;}
 
+#rodape {text-align:center;
+         background: red;}
+#categoria-lateral {text-align: center-right;
+					background-color: white;}
+#menu {float: left;
+       background-color: white ;}
 
 /* cor logo */
  
@@ -62,10 +72,6 @@ a:link {color: pink;
 a:visited {color:violet;
 padding: 8px 12px;}
 
-#postagem-lateral {text-align; center-left;}
-
-#rodape {text-align:center;
-         background: red;}
 div a:hover {
     color: none;
     background: none;
@@ -98,6 +104,12 @@ margin-bottom: 20px;}
                     padding: 10px;
 					margin-bottom: 1px dotted #ccc; 
 					text-align: center;}
+.categoria-lateral { font-size: 0.8em;
+                    padding: 10px;
+					margin-bottom: 1px dotted #ccc;
+					text-align: center-right;}
+.menu {float: left;
+        list-style-position: left;}
 /***** formataçao h1 ***/
 
 h1{color:red;

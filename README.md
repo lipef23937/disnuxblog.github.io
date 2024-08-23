@@ -1,2 +1,2 @@
-# disnuxblog-
-um site insticional feito ´por felipe para o curso de cybersiguranca 
+# disnuxblog
+Um site de postagens de linux de interesse pessoal

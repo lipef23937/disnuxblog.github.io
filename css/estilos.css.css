@@ -1,40 +1,44 @@
 /* fontes*/
 @font-face {
-  font-family: "ubuntu";
-  src: url('font/Ubuntu-light.ttf') format('truetype'),
-  src: url('font/Ubuntu-Italic.ttf') format('truetype'),
-  src: url ('font/ubuntu-Medium.ttf') format('truetype')
-  src: url('font/Ubuntu-Regular.ttf') format('truetype'),
-  src: url('font/Ubuntu-lightItalic.ttf') format('truetype'),
-src: url ('font/ubuntu-MediumItalic.ttf') format('truetype');}
+  font-family: "Ubuntu";
+  src:
+  local("Ubuntu"), src: url('font/ubuntu/Ubuntu-light.ttf') format('truetype'), 
+   url('font/ubuntu/Ubuntu-Italic.ttf') format('truetype'),
+   url ('font/ubuntu/ubuntu-Medium.ttf') format('truetype'),
+   url('font/ubuntu/Ubuntu-Regular.ttf') format('truetype'),,
+   url('font/ubuntu/Ubuntu-lightItalic.ttf') format('truetype'),
+   url ('font/ubuntu/ubuntu-MediumItalic.ttf') format('truetype'),}
   
 @font-face {
-  font-family: "Ubuntubold"
-src: url('font/Ubuntu-Bold.ttf') format('truetype'),
-src: url('font/Ubuntu-BoldItalic.ttf') format('truetype'),
-src: url('font/UbuntuMono-Bold.ttf') format('truetype'),
-src: url('font/UbuntuMono-BoldItalic.ttf') format('truetype');}
+  font-family: "Ubuntubold";
+ src:
+ local("Ubuntubold"),
+ url('font/ubuntubold/Ubuntu-Bold.ttf') format('truetype'),
+ url('font/ubuntubold/Ubuntu-BoldItalic.ttf') format('truetype'),
+ url('font/ubuntubold/UbuntuMono-Bold.ttf') format('truetype'),
+ url('font/ubuntubold/UbuntuMono-BoldItalic.ttf') format('truetype');}
 @font-face {
-	font-family: "signika"
-src: url('font/SignikaNegative-Light.ttf') format('truetype'),
-src: url('font/SignikaNegative-Medium.ttf') format('truetype'),
-src: url('font/SignikaNegative-Regular.ttf') format('truetype'),
-src: url('font/SignikaNegative-Bold.ttf') format('truetype'),
-src: url('font/SignikaNegative-SemiBold.ttf') format('truetype');}
+	font-family: "signika";
+src: 
+ local("signika")
+ url('font/SignikaNegative-Light.ttf') format('truetype'),
+ url('font/SignikaNegative-Medium.ttf') format('truetype'),
+ url('font/SignikaNegative-Regular.ttf') format('truetype'),
+ url('font/SignikaNegative-Bold.ttf') format('truetype'),
+ url('font/SignikaNegative-SemiBold.ttf') format('truetype');}
 /* formatacao padrao */
 * { margin: 0;
 padding: 0.}
 
 body { font-size: 1em;
-      font-family: "ubuntu","UbuntuBold","signika";
-      background-image: url(https://ortodontista.net/wp-content/uploads/2018/05/background-branco-3.jpg) ;
-      background-repeat: repeat;}
+      font-family: "Ubuntu", "UbuntuBold", "signika";}
 
 
 
 /* layout */
-#area-logo {padding:15px;}
-#area-cabecalho	{background: transparent; 
+#area-logo {padding:15px;
+            background-color: red}
+#area-cabecalho	{background-color: red; 
 padding: 10px; 
                  text-align:center;}
 #area-menu{text-align:center;
@@ -45,7 +49,9 @@ padding:10px;}
                  background-image: image(img/back.png) ;}
 #jogos_postagens {text-align: center-left;
 background-color: white;}
-#postagem-lateral {text-align; center-left;}
+#postagem-lateral {padding-right: 600px; 
+                   padding-left: 50px;}
+
 
 #rodape {text-align:center;
          background: red;}
@@ -82,7 +88,7 @@ div a:hover {
   }
 
 p {color:black;
-font-family:"ubuntu";}
+font-family:"Ubuntu";}
 
 
 
@@ -94,11 +100,11 @@ font-family:"ubuntu";}
 .branco {color:white;}
 
 .conteudo-lateral { background: red;
-					padding: 10px;
-margin-bottom: 20px;}
-.postagem-lateral { font-size: 0.8em;
+					padding: -10px;}
+.postagens-lateral { font-family: "Ubuntu", "Ubuntubold", "signika";
                     padding: 10px;
-					margin-bottom: 1px dotted #ccc; }
+					margin-bottom: 1px dotted #ccc;}
+
 .lateral { padding: 10px;}
 .postagem { font-size: 1.0em;
                     padding: 10px;
@@ -110,9 +116,15 @@ margin-bottom: 20px;}
 					text-align: center-right;}
 .menu {float: left;
         list-style-position: left;}
+        
+        
 /***** formataçao h1 ***/
 
-h1{color:red;
-font-family: "signika";}
-h2,h3,h4,h5 {color:black;
-font-family: "ubuntu";}
+h1,h5 {color: white;
+font-family: "Ubuntubold";}
+h2, h3 {color:black;
+font-family: "Ubuntu";}
+h4 {color: black;
+    font-size:1,8em;
+    font-family: "Ubuntubold";}
+

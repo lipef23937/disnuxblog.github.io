@@ -39,8 +39,9 @@ body { font-size: 1em;
 #area-logo {padding:15px;
             background-color: red}
 #area-cabecalho	{background-color: red; 
-padding: 10px; 
-                 text-align:center;}
+                 padding: 10px; 
+                 text-align:center;
+		 box-shadow: 5px;}
 #area-menu{text-align:center;
 background-color:red;	
 padding:10px;}	

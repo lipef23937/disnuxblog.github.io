@@ -121,6 +121,8 @@ font-family:"Ubuntu";}
 					margin-bottom: 1px dotted #ccc;
 					text-align: center-right;}
 .menu { border-radius: 10px;}
+.pos-img{border-radius: 20px; 
+         box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.46);}
         
         
 /***** formataçao h1 ***/
@@ -132,6 +134,5 @@ font-family: "Ubuntu";}
 h4 {color: black;
     font-size:1,8em;
     font-family: "Ubuntubold";}
-img{ border-radius: 20px; 
-    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.46);}
+
     

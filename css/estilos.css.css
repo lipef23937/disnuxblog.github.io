@@ -39,7 +39,8 @@ padding: 10px;
                  text-align:center;}
 #area-menu{text-align:center;
 background-color:red;	
-padding:10px;}	
+padding:10px;
+	  border-radius: 60px;}	
 
 #area-postagens {text-align: center;
                  background-image: image(img/back.png) ;}

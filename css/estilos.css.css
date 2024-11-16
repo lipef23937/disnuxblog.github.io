@@ -47,9 +47,7 @@ body { font-size: 1em;
                  border-bottom-right-radius: 60px;}
 #area-menu{text-align:center;
            background-color:red;	
-           padding:10px;
-	   border-bottom-left-radius: 60px;
-           border-bottom-right-radius: 60px;}
+           padding:10px;}
 
 #area-postagens {text-align: center;
                  background-image: image("img/back.png") ;}
@@ -120,8 +118,7 @@ font-family:"Ubuntu";}
                     padding: 10px;
 					margin-bottom: 1px dotted #ccc;
 					text-align: center-right;}
-.menu {float: left;
-        list-style-position: left;}
+.menu { border-radius: 10px;}
         
         
 /***** formataçao h1 ***/
@@ -133,4 +130,6 @@ font-family: "Ubuntu";}
 h4 {color: black;
     font-size:1,8em;
     font-family: "Ubuntubold";}
-
+img{ border-radius: 20px; 
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.46);}
+    

@@ -31,7 +31,8 @@ src:
 padding: 0.}
 
 body { font-size: 1em;
-      font-family: "Ubuntu", "UbuntuBold", "signika";}
+      font-family: "Ubuntu", "UbuntuBold", "signika";
+     background-image: img("background/back.png");}
 
 
 
@@ -40,7 +41,7 @@ body { font-size: 1em;
             background-color: red;}
 #area-cabecalho	{background-color: red; 
                  padding: 10px; 
-                 text-align:center;
+                 text-align: center;
 		  box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.46);
 		 border-bottom-left-radius: 60px;
                  border-bottom-right-radius: 60px;}

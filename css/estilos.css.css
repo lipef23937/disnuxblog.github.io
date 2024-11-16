@@ -42,10 +42,11 @@ body { font-size: 1em;
                  padding: 10px; 
                  text-align:center;
 		 box-shadow: 5px;
-		border-radius: 60px;}
+		 border-botton-left-radius: 60px;
+		 border-botton-left-radius: 60px;}
 #area-menu{text-align:center;
-background-color:red;	
-padding:10px;}	
+           background-color:red;	
+           padding:10px;}	
 
 #area-postagens {text-align: center;
                  background-image: image(img/back.png) ;}

@@ -41,7 +41,8 @@ body { font-size: 1em;
 #area-cabecalho	{background-color: red; 
                  padding: 10px; 
                  text-align:center;
-		 box-shadow: 5px;}
+		 box-shadow: 5px;
+		border-radius: 60px;}
 #area-menu{text-align:center;
 background-color:red;	
 padding:10px;}	

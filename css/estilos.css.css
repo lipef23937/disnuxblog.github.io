@@ -32,7 +32,7 @@ padding: 0.}
 
 body { font-size: 1em;
       font-family: "Ubuntu", "UbuntuBold", "signika";
-     background-image: url("backgroud/back.png");}
+     background-color: antiquewhite;}
 
 
 
@@ -54,8 +54,9 @@ body { font-size: 1em;
 #area-postagens {text-align: center;}
 #jogos_postagens {text-align: center-left;
 background-color: white;}
-#postagem-lateral {padding-right: 600px; 
-                   padding-left: 50px;}
+#postagem-lateral {
+                  padding-right: 500px; 
+                  padding-left: 50px;}
 
 
 #rodape {text-align:center;
@@ -98,7 +99,7 @@ font-family:"Ubuntu";}
 
 
 
-/**** css ***/
+/**** conteudo do meu site ***/
 .conteudo-lateral {text-align:center;
 					background: white;}
 					
@@ -121,7 +122,10 @@ font-family:"Ubuntu";}
 					text-align: center-right;}
 .menu { border-radius: 10px;}
 .pos-img{border-radius: 20px; 
-         box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.46);}
+         box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.46);
+        float: left;
+        margin-right: 10px;}
+.titulo{float: left;}
         
         
 /***** formataçao h1 ***/

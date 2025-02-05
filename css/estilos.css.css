@@ -2,12 +2,13 @@
 @font-face {
   font-family: "Ubuntu";
   src:
-  local("Ubuntu"), src: url('font/ubuntu/Ubuntu-light.ttf') format('truetype'), 
-   url('font/ubuntu/Ubuntu-Italic.ttf') format('truetype'),
-   url ('font/ubuntu/ubuntu-Medium.ttf') format('truetype'),
-   url('font/ubuntu/Ubuntu-Regular.ttf') format('truetype'),,
-   url('font/ubuntu/Ubuntu-lightItalic.ttf') format('truetype'),
-   url ('font/ubuntu/ubuntu-MediumItalic.ttf') format('truetype'),}
+  local("Ubuntu"), 
+  url('font/ubuntu/Ubuntu-light.ttf') format('truetype'),
+  url('font/ubuntu/Ubuntu-Italic.ttf') format('truetype'),
+  url('font/ubuntu/ubuntu-Medium.ttf') format('truetype'),
+  url('font/ubuntu/Ubuntu-Regular.ttf') format('truetype'),
+  url('font/ubuntu/Ubuntu-lightItalic.ttf') format('truetype'),
+  url('font/ubuntu/ubuntu-MediumItalic.ttf') format('truetype');}
   
 @font-face {
   font-family: "Ubuntubold";
